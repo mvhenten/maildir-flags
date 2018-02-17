@@ -1,0 +1,27 @@
+{
+  "name": "maildir-flags",
+  "version": "0.0.1",
+  "description": "Parse message flags from a Maildir message",
+  "main": "flags.js",
+  "scripts": {
+    "test": "node flags_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvhenten/maildir-flags.git"
+  },
+  "keywords": [
+    "maildir",
+    "message",
+    "flags"
+  ],
+  "author": "Matthijs van Henten <matthijs@ischen.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvhenten/maildir-flags/issues"
+  },
+  "homepage": "https://github.com/mvhenten/maildir-flags#readme",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
